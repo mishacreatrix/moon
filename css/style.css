@@ -1,0 +1,251 @@
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+
+}
+
+/*Typography*/
+.headerHeading {
+	font-family: 'PT Serif', serif;
+	color:white;
+	font-weight: bold;
+	font-size: 75px;
+}
+.headerSubtitle {
+	color:white;
+	padding-bottom: 1em;
+}
+.contentHeading {
+	font-family: 'PT Serif', serif;
+	font-weight: bold;
+	font-size: 35px;
+
+}
+.contentSubtitle {
+	margin-bottom: 1em;
+}
+
+/*Colors*/
+.purple {
+	background-color: #673ab7;
+}
+.purpleFont {
+	color: #673ab7;
+}
+.lightPurple {
+	background-color: #d1c4e9;
+}
+.lightPurpleFont {
+	color: #d1c4e9;
+}
+.darkPurple {
+	background-color: #512da8;
+}
+.darkPurpleFont {
+	color:#512da8;
+}
+.accent {
+	background-color: #536dfe;
+}
+.accentFont {
+	color: #536dfe;
+}
+.black {
+	background-color: #212121;
+}
+.blackFont {
+	color: #212121;
+}
+.grey {
+	background-color: #757575;
+}
+.greyFont {
+	color:#757575;
+}
+.lightGrey {
+	background-color: #eee;
+}
+.lightGreyFont {
+	color: #eee;
+}
+.whiteFont {
+	color: white;
+}
+
+/*Sections*/
+.headerSection {
+	padding-top: 15em;
+	padding-bottom: 15em;
+	margin-top: -25px;
+	background-image: url("../img/1.png");
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.serviceSection {
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+
+.serviceItem {
+	text-align: center;
+	border: 1px solid #ddd;
+	padding: 1em;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.serviceItem:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+
+.aboutSection {
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+
+.previewSection {
+	padding-top: 3em;
+	padding-bottom: 3em;
+	text-align: center;
+}
+
+.teamSection {
+	padding-top: 3em;
+	padding-bottom: 3em;
+	text-align: center;
+}
+
+.callSection {
+	padding-top: 3em;
+	padding-bottom: 3em;
+	background-image: url("../img/1.png");
+    background-repeat: repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.pricingSection {
+	padding-top: 3em;
+	padding-bottom: 3em;
+	text-align: center;
+}
+
+.priceItem {
+	margin-top:0.5em;
+	margin-bottom:0.5em;
+}
+
+.price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+    color: white;
+    font-size: 25px;
+}
+
+.price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+}
+
+.price .lightGrey {
+    font-size: 20px;
+}
+
+.newsSection {
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+
+.newsItem {
+	text-align: center;
+    border: 1px solid #ddd;
+    padding: 1em;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+.newsItem:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.contactSection {
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+
+.addressDetails {
+	padding-top:2em;
+}
+
+.copySection {
+	background-color: #333;
+}
+
+
+
+/*Bootstrap Overwrites*/
+
+.navbar-header {
+	margin-left: 2em!important;
+	margin-right: 4em!important;
+}
+.navbar-form {
+	margin-right: 2em!important;
+}
+.btn-purple {
+  color: #fff;
+  background-color: #673ab7;
+}
+.btn-purple:hover {
+  color: #fff;
+  background-color: #512da8;
+}
+
+
+/* Phone view */
+@media screen and (max-width: 767px) {
+ 
+	.navbar-header {
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+	}
+
+	.headerSection {
+		text-align:center;
+	}
+
+	.serviceItem {
+		margin-bottom: 1.5em;
+	}
+
+	.aboutImage {
+		margin-bottom: 1.5em;
+	}
+
+	.priceItem {
+		margin-bottom: 1.5em;
+	}
+
+	.newsItem {
+		margin-bottom: 1.5em;
+	}
+
+	.addressDetails {
+		text-align: center;
+		margin-bottom: 1.5em;
+	}
+}
