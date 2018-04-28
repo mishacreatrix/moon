@@ -32,4 +32,4 @@ I chose a purple color scheme for this webpage to convey a calm and relaxed tone
 * Contact form
 * Fully responsive web page
 
-Project also available on my website: [Mishacreatrix.com](https://www.mishacreatrix.com)
+Project also available on my website: [Mishacreatrix.com](http://mishacreatrix.com/portfolios/moon/)
