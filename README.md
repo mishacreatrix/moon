@@ -1,5 +1,10 @@
 # Moon - Website Design
 
+![Preview - Moon Website][logo]
+
+[logo]: https://github.com/mishacreatrix/moon/blob/master/Preview%20-%20Moon.png "Preview - Moon Website"
+
+
 ## Date: Jan 2018
 
 ## Project Goal:
